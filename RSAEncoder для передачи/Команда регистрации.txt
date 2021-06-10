@@ -1,0 +1,8 @@
+Для регистрации
+1. Запускаем командную строку от админа
+2. Копируем RSAEncoder.dll в папку С:\RSAEncoder\ 
+3. Пишем в командной строке C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe "С:\RSAEncoder\RSAEncoder.dll" /codebase 
+Если 32-х сервер то пишем:
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe "С:\RSAEncoder\RSAEncoder.dll" /codebase 
+Если пишет что типы зарегистрированы то все норм.
+Обработка с примером вызова библиотеки приложен.
